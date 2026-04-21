@@ -11,8 +11,7 @@ export default function Home() {
       <header className="mb-16 mt-8">
         <nav className="flex gap-6">
           <a className="text-sm transition-opacity duration-200 opacity-100 hover:opacity-50" href="/">About</a>
-          <a className="text-sm transition-opacity duration-200 opacity-40 hover:opacity-100" href="/projects">Projects</a>
-          <a className="text-sm transition-opacity duration-200 opacity-40 hover:opacity-100" href="/timeline">Timeline</a>
+          <a href="/license">License</a>
         </nav>
       </header>
 
@@ -51,9 +50,8 @@ export default function Home() {
 
       {/* フッター */}
       <footer className="mt-24 text-sm text-gray-500 dark:text-gray-400">
-        <p>© 2026 r1751</p>
+        <p>Copyright 2026 q14u</p>
         <div className="flex gap-4 mt-2">
-          <a href="https://twitter.com" target="_blank" className="hover:opacity-60 transition">Twitter</a>
           <a href="https://github.com/q14uy20" target="_blank" className="hover:opacity-60 transition">GitHub</a>
         </div>
       </footer>
