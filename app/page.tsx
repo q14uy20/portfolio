@@ -19,16 +19,6 @@ export default function Home() {
         <p className="leading-relaxed mt-4">
           I am q14u.
         </p>
-
-        <p className="leading-relaxed mt-4">
-          Check my{" "}
-          <a
-            className="underline underline-offset-4 hover:opacity-60 transition"
-            href="/projects"
-          >
-            projects
-          </a>.
-        </p>
       </div>
 
       {/* Projectsカード */}
